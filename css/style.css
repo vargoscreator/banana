@@ -1443,6 +1443,7 @@ main.main{
 .buy__title{
     text-align: center;
     position: relative;
+    pointer-events: none;
 }
 .buy__title::before{
     content: '';
