@@ -9,12 +9,12 @@ document.addEventListener("DOMContentLoaded", function () {
             prevEl: ".roadmap__slide-prev",
         },
         breakpoints: {
-            480: {
-                spaceBetween: 30,
+            768: {
+                spaceBetween: 33,
                 slidesPerView: 2,
             },
             1000: {
-                spaceBetween: 30,
+                spaceBetween: 33,
                 slidesPerView: 3,
             },
             1280: {
@@ -26,8 +26,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let buySwiper = new Swiper(".buy__slider", {
         loop: false,
-        spaceBetween: 33,
-        slidesPerView: 1,
+        spaceBetween: 24,
+        slidesPerView: 'auto',
         navigation: {
             nextEl: ".buy__slide-next",
             prevEl: ".buy__slide-prev",
@@ -35,15 +35,13 @@ document.addEventListener("DOMContentLoaded", function () {
         breakpoints: {
             480: {
                 spaceBetween: 40,
-                slidesPerView: 2,
             },
             768: {
                 spaceBetween: 40,
-                slidesPerView: 3,
             },
             1000: {
                 spaceBetween: 40,
-                slidesPerView: 4,
+                slidesPerView: 'auto',
             },
             1280: {
                 spaceBetween: 40,
